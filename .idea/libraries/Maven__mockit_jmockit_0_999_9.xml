@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: mockit:jmockit:0.999.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/mockit/jmockit/0.999.9/jmockit-0.999.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/mockit/jmockit/0.999.9/jmockit-0.999.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/mockit/jmockit/0.999.9/jmockit-0.999.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
