@@ -7,16 +7,14 @@ package sort;
  *          Copyright: CYBER AGENT. Inc
  * @since 12/08/01
  */
-public class InsertionSort {
-    public static void main(String[] args) {
-        int[] array = {6,5,3,2,8,7,1};
-        array = insertionSort(array);
-        for(int entity: array) {
-            System.out.println(entity);
-        }
+public class InsertionSort implements Sort {
+
+    @Override
+    public int[] sort(int[] array) {
+        return insertionSort(array);
     }
 
-    static private int[] insertionSort(int[] array) {
+    private int[] insertionSort(int[] array) {
         int currentValue = 0;
         for (int currentIdx = 1; currentIdx < array.length; currentIdx++) {
             currentValue = array[currentIdx];
@@ -31,4 +29,5 @@ public class InsertionSort {
         }
         return array;
     }
+
 }
