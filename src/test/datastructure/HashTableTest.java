@@ -30,11 +30,14 @@ public class HashTableTest {
     public void testDelete() {
         table.insert(1);
         table.insert(2);
+        table.insert(258);
         table.insert(257);
         assertThat(table.search(1), is(1));
         assertThat(table.search(2), is(2));
         assertThat(table.delete(1), is(1));
         assertThat(table.search(1), is(-1));
+        assertThat(table.delete(1), is(-1));
+        assertThat(table.search(258), is(258));
     }
 
 
